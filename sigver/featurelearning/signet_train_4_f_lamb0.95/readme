@@ -1,0 +1,16 @@
+--model
+signet
+--dataset-path
+/ocr/sigver/data/open_data/cedar/signatures_train_4_170_242.npz
+--users
+0
+55
+--model
+signet
+--epochs
+60
+--forg
+--lamb
+0.95
+--logdir
+signet_train_4_f_lamb0.95
